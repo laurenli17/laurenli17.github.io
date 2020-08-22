@@ -1183,11 +1183,11 @@ body {
 }
 
 .item-4 {
-  background-image: url("../img/project-4.jpg");
+  background-image: url("../img/project-4.JPG");
 }
 
 .item-5 {
-  background-image: url("../img/project-5.jpg");
+  background-image: url("../img/project-5.JPG");
 }
 @media (min-width: 40em) {
   #layout-grid:checked ~ .rk-portfolio .item-5 {
@@ -1196,7 +1196,7 @@ body {
 }
 
 .item-6 {
-  background-image: url("../img/project-6.jpg");
+  background-image: url("../img/project-6.JPG");
 }
 @media (min-width: 40em) {
   #layout-grid:checked ~ .rk-portfolio .item-6 {
