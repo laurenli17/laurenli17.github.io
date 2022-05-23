@@ -1,17 +1,19 @@
 body{
     margin: 0;
     padding: 0;
-    background: url(bg.jpg) no-repeat;
+    background: url("Assets/bg0.jpg") no-repeat;
     background-size: cover;
+    height: 900px; /* You must set a specified height */
+    background-position: center; /* Center the image */
   }
   .box{
     width: 450px;
-    background: rgba(0, 0, 0, 0.4);
+    background: rgb(241, 248, 248);
     padding: 40px;
     text-align: center;
     margin: auto;
     margin-top: 5%;
-    color: white;
+    color: rgb(0, 0, 0);
     font-family: 'Century Gothic',sans-serif;
   }
   .box-img{
@@ -25,7 +27,7 @@ body{
     font-weight: 100;
   }
   .box h5{
-    font-size: 20px;
+    font-size: 18px;
     letter-spacing: 3px;
     font-weight: 100;
   }
@@ -42,11 +44,11 @@ body{
     list-style: none;
   }
   .box li a{
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
     font-size: 60px;
     transition: all ease-in-out 250ms;
   }
   .box li a:hover{
-    color: #b9b9b9;
+    color: #000000;
   }
